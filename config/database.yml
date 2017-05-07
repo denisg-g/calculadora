@@ -24,8 +24,8 @@ default: &default
 development:
   <<: *default
   database: maq3_development
-  username: denis
-  password: asdf
+  username: jarvis
+  password: 12345789
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
