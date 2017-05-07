@@ -1,0 +1,24 @@
+<h2>Deje un valor en blanco para calcular</h2>
+<%= form_tag "/welcome/calcular" do %>
+  <label class="n">n% <a class="i">a/b</a>=&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <label class="formula">
+    Na * CPIa * fb
+  </label>
+  <label class="formula1">
+    Nb * CPIb * fa
+  </label>
+  <label class="abrep">(</label>
+  <label class="cierrap">)</label>
+  <label class="menosuno">-1</label>
+  <label class="porcien">*100</label>
+   <hr class="line">
+  <input type="number" min="0" name="calcular[npor]" id="calcular_npor">
+  <input type="number" min="0" name="calcular[na]" id="calcular_na">
+  <input type="number" min="0" name="calcular[cpia]" id="calcular_cpia">
+  <input type="number" min="0" name="calcular[fb]" id="calcular_fb">
+  <input type="number" min="0" name="calcular[nb]" id="calcular_nb">
+  <input type="number" min="0" name="calcular[cpib]" id="calcular_cpib">
+  <input type="number" min="0" name="calcular[fa]" id="calcular_fa">
+  <br>
+  <%= submit_tag "Calcular" %>
+<% end %>
