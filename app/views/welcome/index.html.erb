@@ -1,5 +1,7 @@
+<h1>Universidad nacional de ingeniería</h1>
+<h1>arquitecturaMaquinas3::Lab1 => programa_que_calcula_variables()</h1>
 <h2>Deje un valor en blanco para calcular</h2>
-<%= form_tag "/welcome/calcular" do %>
+<%= form_tag "/welcome/calcular"  do %>
   <label class="n">n% <a class="i">a/b</a>=&nbsp;&nbsp;&nbsp;&nbsp;</label>
   <label class="formula">
     Na * CPIa * fb
@@ -12,13 +14,17 @@
   <label class="menosuno">-1</label>
   <label class="porcien">*100</label>
    <hr class="line">
-  <input type="number" min="0" name="calcular[npor]" id="calcular_npor">
-  <input type="number" min="0" name="calcular[na]" id="calcular_na">
-  <input type="number" min="0" name="calcular[cpia]" id="calcular_cpia">
-  <input type="number" min="0" name="calcular[fb]" id="calcular_fb">
-  <input type="number" min="0" name="calcular[nb]" id="calcular_nb">
-  <input type="number" min="0" name="calcular[cpib]" id="calcular_cpib">
-  <input type="number" min="0" name="calcular[fa]" id="calcular_fa">
+  <input type="number" min="0" name="calcular[npor]"  step="any" id="calcular_npor">
+  <input type="number" min="0" name="calcular[na]" step="any"  id="calcular_na">
+  <input type="number" min="0" name="calcular[cpia]" step="any"  id="calcular_cpia">
+  <input type="number" min="0" name="calcular[fb]" step="any"  id="calcular_fb">
+  <input type="number" min="0" name="calcular[nb]" step="any"  id="calcular_nb">
+  <input type="number" min="0" name="calcular[cpib]"  step="any" id="calcular_cpib">
+  <input type="number" min="0" name="calcular[fa]" step="any"  id="calcular_fa">
   <br>
   <%= submit_tag "Calcular" %>
+
+  <%if @var4 %>
+     <%= @var4 %>
+   <%end  %>
 <% end %>

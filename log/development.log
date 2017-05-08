@@ -3782,3 +3782,1894 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:29:56 -0600
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/lib/ruby/gems/2.2.0/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+  
+PG::ConnectionBad (FATAL:  la autentificación Peer falló para el usuario «jarvis»
+):
+  
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `initialize'
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `new'
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+activerecord (5.0.2) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.2) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.2) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.2) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+/usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+/usr/local/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb__1150631430186153954_70087967067800 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.9ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:30:21 -0600
+  
+PG::ConnectionBad (FATAL:  la autentificación Peer falló para el usuario «jarvis»
+):
+  
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `initialize'
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `new'
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `new'
+activerecord (5.0.2) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:729:in `new_connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:773:in `checkout_new_connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:752:in `try_to_checkout_new_connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:713:in `acquire_connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:490:in `checkout'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:364:in `connection'
+activerecord (5.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:883:in `retrieve_connection'
+activerecord (5.0.2) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.2) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.2) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.2) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+/usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+/usr/local/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.0ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb__1150631430186153954_70087962735720 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.1ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:30:29 -0600
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/lib/ruby/gems/2.2.0/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 343ms (Views: 335.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-05-07 12:30:30 -0600
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 12:56:49 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+p8j/1EQDth2uLQ9K/1f2eKfmjl84uut1go3dk+Xyq3Rg+YyGV2GvJoahO4TcYPmX68W4A1nAwEoqylcsDEoHA==", "calcular"=>{"npor"=>"123", "na"=>"", "cpia"=>"0", "fb"=>"", "nb"=>"", "cpib"=>"0", "fa"=>""}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:56:49 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 12:56:52 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5DlDwcL+1GWEARDy7H5Wt5w/ob7S7f5oZMm9PFyMwjvPJYYMirNcAWijICHU8oqIIQ8tZ6NoFsSaaKMWoyogig==", "calcular"=>{"npor"=>"123123", "na"=>"", "cpia"=>"", "fb"=>"", "nb"=>"", "cpib"=>"", "fa"=>""}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:56:52 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 12:57:05 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XOm4Sis38LPiESrxVV3HiA0y+Pu5vGlOVkHSYsXTweF39X2HY3p41w6zGiJt0Ru3sAJ0Isg5geKo4MxIOnUjUA==", "calcular"=>{"npor"=>"", "na"=>"", "cpia"=>"", "fb"=>"", "nb"=>"", "cpib"=>"", "fa"=>""}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:57:05 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:57:07 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 12:57:08 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KlSD/HAU4xPnjQd+1DVkEJMd3adn52j1ukKwrstsLHABSEYxOFlrdwsvN63subgvLi1RfhZigFlE466ENMrOwQ==", "calcular"=>{"npor"=>"", "na"=>"", "cpia"=>"", "fb"=>"", "nb"=>"", "cpib"=>"", "fa"=>""}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:57:08 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:57:16 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 12:57:27 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+mqjg5o0g8QUmNqBiqpUV02G4NSgkO2/xdYY2LYqcmHRdmZO0nkLoPg66lKyJoho8LZsDdEVBRM7dwbySYyQ0A==", "calcular"=>{"npor"=>"123", "na"=>"", "cpia"=>"", "fb"=>"", "nb"=>"", "cpib"=>"", "fa"=>""}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:57:27 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:57:42 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 12:57:46 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N+F4UUVT/qGzxfcLgxcXiGZSXPzoignbnuYclxbJCY0c/b2cDR52xV9nx9i7m8u322LQJZkP4XdgRwK96W/rPA==", "calcular"=>{"npor"=>"123", "na"=>"", "cpia"=>"", "fb"=>"", "nb"=>"", "cpib"=>"", "fa"=>""}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:57:46 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 12:58:37 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:09:00 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:27: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/welcome_controller.rb:27: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910424201760 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.3ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:09:14 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:09:23 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Td2Yj5MA4lFF9BrvUKYKq+bgjdf3zncZU6q1jFZ/3uFmwV1C201qNalWKjxoKtaUW9ABDoZLn7WtC6umqdk8UA==", "calcular"=>{"npor"=>"", "na"=>"123", "cpia"=>"1", "fb"=>"", "nb"=>"2", "cpib"=>"2", "fa"=>"2"}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:09:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:09:39 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AvuKxvu7ifCCq0chHClcXjxU6vsbdPDCNlISsrXjsewp508Ls/YBlG4Jd/IkpYBhgWRmImrxGG7I8wyYSkVTXQ==", "calcular"=>{"npor"=>"", "na"=>"123", "cpia"=>"123", "fb"=>"123", "nb"=>"123", "cpib"=>"123", "fa"=>"123"}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:09:39 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:09:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:09:51 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rBg2xZFiEC24xNB+5bXOSojobOG96HdH0+Kqa6H1l1CHBPMI2S+YSVRm4K3dORJ1NdjgOMxtn+stQ7RBXlN14Q==", "calcular"=>{"npor"=>"", "na"=>"123", "cpia"=>"123", "fb"=>"", "nb"=>"123", "cpib"=>"123", "fa"=>""}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:09:51 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:15:04 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:15:34 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:15:54 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SC3sDztmQfbmfznoZOr8UrP+19svFwssTF+wMov7K0ljMSnCcyvJkgrdCTtcZiBtDs5bAl6S44Cy/q4YdF3J+A==", "calcular"=>{"npor"=>"", "na"=>"123", "cpia"=>"123", "fb"=>"", "nb"=>"123", "cpib"=>"123", "fa"=>""}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:15:54 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:16:23 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H0EB+GxK2s+TDI2LeyGJutdpoTIoQ5R86uTg7jqOJhQ0XcQ1JAdSq3+uvVhDrVWFalkt61nGfNAURf7ExSjEpQ==", "calcular"=>{"npor"=>"", "na"=>"123", "cpia"=>"123", "fb"=>"123", "nb"=>"123", "cpib"=>"123", "fa"=>"123"}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:16:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:22:03 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:17: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+      redirect_to root_path, alert: var4
+                           ^):
+  
+app/controllers/welcome_controller.rb:17: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910643451500 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.7ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:22:36 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:17: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+      render :json => var4
+              ^):
+  
+app/controllers/welcome_controller.rb:17: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910649037620 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.8ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:23:48 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:17: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+      render :json => @var4
+              ^):
+  
+app/controllers/welcome_controller.rb:17: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910649959840 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.4ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:24:17 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:18: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+      render :json => @var4.to_json
+              ^):
+  
+app/controllers/welcome_controller.rb:18: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910646831040 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.5ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:26:35 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:26:41 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vsr8dRK61Qm11Jsco3jx3PkG0hCMiOUlOeaOPrP2KAKV1jm4WvddbVl2q8+b9C3jRDZeyf0NDYnHR5AUTFDKsw==", "calcular"=>{"npor"=>"", "na"=>"3", "cpia"=>"03", "fb"=>"4", "nb"=>"4", "cpib"=>"2", "fa"=>"3"}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:26:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:26:49 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j7JfMFRaf/CdiQwl4wNM4gyErh/eNz02s/nRJlq7DA6krpr9HBf3lHErPPbbj5DdsbQixq+y1ZpNWM8MpR3uvw==", "calcular"=>{"npor"=>"", "na"=>"234", "cpia"=>"234", "fb"=>"2342", "nb"=>"34234", "cpib"=>"23423", "fa"=>"4324"}, "commit"=>"Calcular"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/welcome_controller.rb:11:in `*'
+app/controllers/welcome_controller.rb:11:in `calcular'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910646837720 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.1ms)
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:27:30 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"j7JfMFRaf/CdiQwl4wNM4gyErh/eNz02s/nRJlq7DA6krpr9HBf3lHErPPbbj5DdsbQixq+y1ZpNWM8MpR3uvw==", "calcular"=>{"npor"=>"", "na"=>"234", "cpia"=>"234", "fb"=>"2342", "nb"=>"34234", "cpib"=>"23423", "fa"=>"4324"}, "commit"=>"Calcular"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/welcome_controller.rb:17:in `calcular'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910648338680 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.5ms)
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:28:08 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:17: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+      render :json => @var4
+              ^):
+  
+app/controllers/welcome_controller.rb:17: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910641129020 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.0ms)
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:41:19 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:18: syntax error, unexpected keyword_elsif
+    elsif !(:npor.blank? && :cpia.blan...
+         ^):
+  
+app/controllers/welcome_controller.rb:18: syntax error, unexpected keyword_elsif
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910653079120 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.6ms)
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:41:38 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:15: syntax error, unexpected ')'
+/home/denis/sites/maq3/app/controllers/welcome_controller.rb:20: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/controllers/welcome_controller.rb:15: syntax error, unexpected ')'
+app/controllers/welcome_controller.rb:20: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910648322760 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.5ms)
+Started GET "/welcome/" for 127.0.0.1 at 2017-05-07 13:41:43 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+/usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+/usr/local/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (4.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910645351100 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (45.3ms)
+Started GET "/welcome/index" for 127.0.0.1 at 2017-05-07 13:41:48 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:15: syntax error, unexpected ')'
+/home/denis/sites/maq3/app/controllers/welcome_controller.rb:20: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/controllers/welcome_controller.rb:15: syntax error, unexpected ')'
+app/controllers/welcome_controller.rb:20: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910629442840 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.7ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:41:51 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:15: syntax error, unexpected ')'
+/home/denis/sites/maq3/app/controllers/welcome_controller.rb:20: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/controllers/welcome_controller.rb:15: syntax error, unexpected ')'
+app/controllers/welcome_controller.rb:20: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910648007860 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.5ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:42:15 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:42:21 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6GxGNQLPd5YsWUwqnYJl2CQGZ7Y+igXbRfgClfXYGsnDcIP4SoL/8sD7fPmlDrnnmTbrb08P7Xe7WRy/Cn74eA==", "calcular"=>{"npor"=>"", "na"=>"453", "cpia"=>"53", "fb"=>"4534", "nb"=>"3453", "cpib"=>"54", "fa"=>"53"}, "commit"=>"Calcular"}
+No template found for WelcomeController#calcular, rendering head :no_content
+Completed 204 No Content in 20ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 13:53:23 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:53:31 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll0Q/rO4Mg2StGuUq0yKB75PVT1UqGPtJCrx5xQqHXm9QdUz+/W6aX4WW0eTwFY4A3/Z5CUti0Hai+/N64z/yA==", "calcular"=>{"npor"=>"", "na"=>"234", "cpia"=>"4234", "fb"=>"234", "nb"=>"23", "cpib"=>"42", "fa"=>"34"}, "commit"=>"Calcular"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `respond_with' for #<WelcomeController:0x007f2aaeb726b0>):
+  
+app/controllers/welcome_controller.rb:16:in `calcular'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910642080700 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.6ms)
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:53:56 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll0Q/rO4Mg2StGuUq0yKB75PVT1UqGPtJCrx5xQqHXm9QdUz+/W6aX4WW0eTwFY4A3/Z5CUti0Hai+/N64z/yA==", "calcular"=>{"npor"=>"", "na"=>"234", "cpia"=>"4234", "fb"=>"234", "nb"=>"23", "cpib"=>"42", "fa"=>"34"}, "commit"=>"Calcular"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `respond_with' for #<WelcomeController:0x007f2aad14bc00>):
+  
+app/controllers/welcome_controller.rb:16:in `calcular'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___2371428896911431571_69910649899840 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (33.1ms)
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:56:27 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll0Q/rO4Mg2StGuUq0yKB75PVT1UqGPtJCrx5xQqHXm9QdUz+/W6aX4WW0eTwFY4A3/Z5CUti0Hai+/N64z/yA==", "calcular"=>{"npor"=>"", "na"=>"234", "cpia"=>"4234", "fb"=>"234", "nb"=>"23", "cpib"=>"42", "fa"=>"34"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 13:56:50 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll0Q/rO4Mg2StGuUq0yKB75PVT1UqGPtJCrx5xQqHXm9QdUz+/W6aX4WW0eTwFY4A3/Z5CUti0Hai+/N64z/yA==", "calcular"=>{"npor"=>"", "na"=>"234", "cpia"=>"4234", "fb"=>"234", "nb"=>"23", "cpib"=>"42", "fa"=>"34"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 14:08:34 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll0Q/rO4Mg2StGuUq0yKB75PVT1UqGPtJCrx5xQqHXm9QdUz+/W6aX4WW0eTwFY4A3/Z5CUti0Hai+/N64z/yA==", "calcular"=>{"npor"=>"", "na"=>"234", "cpia"=>"4234", "fb"=>"234", "nb"=>"23", "cpib"=>"42", "fa"=>"34"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 19:40:45 -0600
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/lib/ruby/gems/2.2.0/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 205ms (Views: 195.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:41:01 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P9p386zDj6lkT5pnCIXbu0GTYA4a1RAnAD/T9pgJCE1UbudA/dlDpPHKmEaik6h+VL5c4rIcIWpQKeDwTGkuJg==", "calcular"=>{"npor"=>"", "na"=>"2342", "cpia"=>"2", "fb"=>"342", "nb"=>"42342", "cpib"=>"42342", "fa"=>"243"}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 19:41:01 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:41:43 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Aed3yhXSwXAa1Jh7Z57uZncFUV8lXU/GK0P20YwE9HZqU+d5RMgNfY9RmlrNiJ2jYihts42Ufot7VcXXWGTSHQ==", "calcular"=>{"npor"=>"", "na"=>"3423", "cpia"=>"42", "fb"=>"34234", "nb"=>"234", "cpib"=>"234", "fa"=>"234"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 19:44:29 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:44:35 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQM477YDmwyiCSJ11XjyNDloDLdXLPOLSK/2qnXBgNhGt6hc5xlXATeMIFR/boHxLEUwW//lwsYYucWsoaGmsw==", "calcular"=>{"npor"=>"", "na"=>"2342", "cpia"=>"2342", "fb"=>"2342", "nb"=>"34234", "cpib"=>"2342342", "fa"=>"34234"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:44:43 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQM477YDmwyiCSJ11XjyNDloDLdXLPOLSK/2qnXBgNhGt6hc5xlXATeMIFR/boHxLEUwW//lwsYYucWsoaGmsw==", "calcular"=>{"npor"=>"", "na"=>"2342", "cpia"=>"2342", "fb"=>"2342", "nb"=>"34234", "cpib"=>"2342342", "fa"=>"34234"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:44:47 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQM477YDmwyiCSJ11XjyNDloDLdXLPOLSK/2qnXBgNhGt6hc5xlXATeMIFR/boHxLEUwW//lwsYYucWsoaGmsw==", "calcular"=>{"npor"=>"", "na"=>"2342", "cpia"=>"234233", "fb"=>"2342", "nb"=>"34234", "cpib"=>"2342342", "fa"=>"34234"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:44:58 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQM477YDmwyiCSJ11XjyNDloDLdXLPOLSK/2qnXBgNhGt6hc5xlXATeMIFR/boHxLEUwW//lwsYYucWsoaGmsw==", "calcular"=>{"npor"=>"", "na"=>"23", "cpia"=>"25675756", "fb"=>"342657", "nb"=>"426", "cpib"=>"4234356", "fa"=>"2453"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 19:47:51 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:48:16 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2z7bUFpAIBuDlP15XgWiHGDgVF79t+V77Zn6dS4cntKwikvjC1rsFhYR/1j0E9HZdc1oslV+1Da9j8lz+ny4uQ==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"0.67", "fb"=>"2", "nb"=>"3244324", "cpib"=>"0.53", "fa"=>"1"}, "commit"=>"Calcular"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 19:48:16 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:48:24 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"0.67", "fb"=>"22", "nb"=>"3244324", "cpib"=>"0.53", "fa"=>"12"}, "commit"=>"Calcular"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/welcome_controller.rb:14:in `/'
+app/controllers/welcome_controller.rb:14:in `calcular'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___3807661105977710327_70028001622400 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (50.9ms)
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:48:47 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"3.67", "fb"=>"22", "nb"=>"3244324", "cpib"=>"1.53", "fa"=>"12"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:48:55 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"342", "fb"=>"22", "nb"=>"3244324", "cpib"=>"531", "fa"=>"12"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:48:58 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"342", "fb"=>"22", "nb"=>"3244324", "cpib"=>"531", "fa"=>"12"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:14 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"342", "fb"=>"22", "nb"=>"3244324", "cpib"=>"531", "fa"=>"12"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:17 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"4e53", "fb"=>"22", "nb"=>"3244324", "cpib"=>"531", "fa"=>"12"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:21 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"3536", "fb"=>"22", "nb"=>"3244324", "cpib"=>"531", "fa"=>"12"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:25 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"3536", "fb"=>"22", "nb"=>"3244324", "cpib"=>"3634", "fa"=>"12"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:27 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"3536", "fb"=>"22", "nb"=>"3244324", "cpib"=>"3634", "fa"=>"3463"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:31 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"23442", "cpia"=>"3536", "fb"=>"3463", "nb"=>"3244324", "cpib"=>"3634", "fa"=>"3463"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:35 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"34", "cpia"=>"3536", "fb"=>"3463", "nb"=>"34", "cpib"=>"3634", "fa"=>"3463"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:40 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"34", "cpia"=>"45", "fb"=>"3463", "nb"=>"34", "cpib"=>"3634", "fa"=>"3463"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:44 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"34", "cpia"=>"45", "fb"=>"3463", "nb"=>"34", "cpib"=>"345", "fa"=>"3463"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:48 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"34", "cpia"=>"45", "fb"=>"345", "nb"=>"34", "cpib"=>"345", "fa"=>"3463"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:49:52 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyjFaU+uFwg+E0kNRCT5YgSS9Jw53Htxlwf+NAtyPBBcnFXaHrTbBauWSyzuMoqnEb/IcJEVSjzHEc0y3xIaew==", "calcular"=>{"npor"=>"", "na"=>"34", "cpia"=>"45", "fb"=>"345", "nb"=>"34", "cpib"=>"345", "fa"=>"35"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 19:54:04 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:54:09 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"324", "cpia"=>"23", "fb"=>"4234", "nb"=>"234", "cpib"=>"234", "fa"=>"234"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:54:16 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"324", "cpia"=>"23", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:54:22 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"324", "cpia"=>"23564", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:54:25 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"324", "cpia"=>"23564", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:54:28 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"323456", "cpia"=>"23564", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:54:32 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"323456", "cpia"=>"23564", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:55:02 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"323456", "cpia"=>"23564", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:56:19 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"323456", "cpia"=>"23564", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:56:21 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"323456", "cpia"=>"23564", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:56:22 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"323456", "cpia"=>"23564", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:56:24 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"323456", "cpia"=>"23564", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:56:26 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wVnY2VGmvFwteA36gWPQ7UgW3p5C0C/HcMKcEVsbr86q7UhqALxwUbj9D9srdaMoXTvicuoZHoog1K8Xj3uJpQ==", "calcular"=>{"npor"=>"", "na"=>"323456", "cpia"=>"23564", "fb"=>"74574", "nb"=>"2272", "cpib"=>"626", "fa"=>"2346457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 19:56:28 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:56:36 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jx/3j+uw6FyNDodhKaj5z3AKkyX1oov7so0zht8S2O1Mq2c8uqokURiLhUCDvooKZSevyV1rurbimwCAC3L+hg==", "calcular"=>{"npor"=>"", "na"=>"42342", "cpia"=>"3424", "fb"=>"65", "nb"=>"6585", "cpib"=>"6585", "fa"=>"547584"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:56:48 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jx/3j+uw6FyNDodhKaj5z3AKkyX1oov7so0zht8S2O1Mq2c8uqokURiLhUCDvooKZSevyV1rurbimwCAC3L+hg==", "calcular"=>{"npor"=>"", "na"=>"466342", "cpia"=>"3424", "fb"=>"65", "nb"=>"6585", "cpib"=>"6585", "fa"=>"547585"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:56:50 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jx/3j+uw6FyNDodhKaj5z3AKkyX1oov7so0zht8S2O1Mq2c8uqokURiLhUCDvooKZSevyV1rurbimwCAC3L+hg==", "calcular"=>{"npor"=>"", "na"=>"466342", "cpia"=>"3424", "fb"=>"65", "nb"=>"6585", "cpib"=>"6585", "fa"=>"547585"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:56:55 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jx/3j+uw6FyNDodhKaj5z3AKkyX1oov7so0zht8S2O1Mq2c8uqokURiLhUCDvooKZSevyV1rurbimwCAC3L+hg==", "calcular"=>{"npor"=>"", "na"=>"466342", "cpia"=>"3424", "fb"=>"65", "nb"=>"6585", "cpib"=>"6585", "fa"=>"665"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 19:57:16 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jx/3j+uw6FyNDodhKaj5z3AKkyX1oov7so0zht8S2O1Mq2c8uqokURiLhUCDvooKZSevyV1rurbimwCAC3L+hg==", "calcular"=>{"npor"=>"", "na"=>"466342", "cpia"=>"3424", "fb"=>"65", "nb"=>"6585", "cpib"=>"6585", "fa"=>"665"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:06:23 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jx/3j+uw6FyNDodhKaj5z3AKkyX1oov7so0zht8S2O1Mq2c8uqokURiLhUCDvooKZSevyV1rurbimwCAC3L+hg==", "calcular"=>{"npor"=>"", "na"=>"466342", "cpia"=>"3424", "fb"=>"65", "nb"=>"6585", "cpib"=>"6585", "fa"=>"665"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 20:07:28 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:07:36 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CNobRE+RMMbSCx0OQEPJPCknIDBvP9+I6QMkZqN/Tl9jbov3Hov8y0eOHy/qVbr5PAoc3Mf27sW5FRdgdx9oNA==", "calcular"=>{"npor"=>"", "na"=>"2342", "cpia"=>"42", "fb"=>"3424", "nb"=>"434", "cpib"=>"2234", "fa"=>"234"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:07:39 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CNobRE+RMMbSCx0OQEPJPCknIDBvP9+I6QMkZqN/Tl9jbov3Hov8y0eOHy/qVbr5PAoc3Mf27sW5FRdgdx9oNA==", "calcular"=>{"npor"=>"", "na"=>"2342", "cpia"=>"2442", "fb"=>"3424", "nb"=>"434", "cpib"=>"2234", "fa"=>"234"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:07:44 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CNobRE+RMMbSCx0OQEPJPCknIDBvP9+I6QMkZqN/Tl9jbov3Hov8y0eOHy/qVbr5PAoc3Mf27sW5FRdgdx9oNA==", "calcular"=>{"npor"=>"", "na"=>"2342", "cpia"=>"2442", "fb"=>"3424", "nb"=>"434", "cpib"=>"2234", "fa"=>"234"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 20:18:56 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:19:04 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SWOECr85Bww/qMJUbndpjXjAP6G1VJySo39Wg2KerXoi1xS57iPLAaotwHXEYRpIbe0DTR2drd/zaWWFtv6LEQ==", "calcular"=>{"npor"=>"234", "na"=>"", "cpia"=>"234", "fb"=>"24", "nb"=>"24", "cpib"=>"2452", "fa"=>"2523"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 20:20:07 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 20:20:13 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:20:19 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cjGMnb1ObBitw93Z7cK+YSdJgB/lRxnqHBVnlUJf/eMZhRwu7FSgFThG3/hH1M2kMmS8802OKKdMA1STlj/biA==", "calcular"=>{"npor"=>"2324", "na"=>"", "cpia"=>"242", "fb"=>"15", "nb"=>"1512", "cpib"=>"14523", "fa"=>"5123"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:20:22 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cjGMnb1ObBitw93Z7cK+YSdJgB/lRxnqHBVnlUJf/eMZhRwu7FSgFThG3/hH1M2kMmS8802OKKdMA1STlj/biA==", "calcular"=>{"npor"=>"2324", "na"=>"", "cpia"=>"242", "fb"=>"15", "nb"=>"1512", "cpib"=>"14523", "fa"=>"5123"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:20:34 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cjGMnb1ObBitw93Z7cK+YSdJgB/lRxnqHBVnlUJf/eMZhRwu7FSgFThG3/hH1M2kMmS8802OKKdMA1STlj/biA==", "calcular"=>{"npor"=>"2324", "na"=>"", "cpia"=>"242", "fb"=>"15", "nb"=>"1512", "cpib"=>"14523", "fa"=>"5123"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:21:13 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cjGMnb1ObBitw93Z7cK+YSdJgB/lRxnqHBVnlUJf/eMZhRwu7FSgFThG3/hH1M2kMmS8802OKKdMA1STlj/biA==", "calcular"=>{"npor"=>"2324", "na"=>"", "cpia"=>"242", "fb"=>"15", "nb"=>"1512", "cpib"=>"14523", "fa"=>"5123"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:21:16 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cjGMnb1ObBitw93Z7cK+YSdJgB/lRxnqHBVnlUJf/eMZhRwu7FSgFThG3/hH1M2kMmS8802OKKdMA1STlj/biA==", "calcular"=>{"npor"=>"2324", "na"=>"", "cpia"=>"24235", "fb"=>"35315", "nb"=>"1512", "cpib"=>"14523", "fa"=>"5123"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 20:22:00 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:22:07 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tzXGnzKLkRMLiskshN6dsyglQsVpax5j8Nh24H2EftncgVYsY5FdHp4Pyw0uyO52PQh+KcGiLy6gzkXmqeRYsg==", "calcular"=>{"npor"=>"02342", "na"=>"", "cpia"=>"242", "fb"=>"4234", "nb"=>"2344", "cpib"=>"4234", "fa"=>"242"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:22:28 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tzXGnzKLkRMLiskshN6dsyglQsVpax5j8Nh24H2EftncgVYsY5FdHp4Pyw0uyO52PQh+KcGiLy6gzkXmqeRYsg==", "calcular"=>{"npor"=>"02342", "na"=>"", "cpia"=>"242", "fb"=>"4234", "nb"=>"2344", "cpib"=>"4234", "fa"=>"242"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 20:22:45 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:22:53 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z0JANS6YlE3A8I0d1zsW29xGzyJ0VWVLvEb1Tl7yi/cM9tCGf4JYQFV1jzx9LWUeyWvzztycVAbsUMZIipKtnA==", "calcular"=>{"npor"=>"3234", "na"=>"", "cpia"=>"243", "fb"=>"234", "nb"=>"5242", "cpib"=>"4243", "fa"=>"2424"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 20:23:01 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z0JANS6YlE3A8I0d1zsW29xGzyJ0VWVLvEb1Tl7yi/cM9tCGf4JYQFV1jzx9LWUeyWvzztycVAbsUMZIipKtnA==", "calcular"=>{"npor"=>"3234", "na"=>"", "cpia"=>"243", "fb"=>"234", "nb"=>"5242", "cpib"=>"4243", "fa"=>"2424"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:31:11 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z0JANS6YlE3A8I0d1zsW29xGzyJ0VWVLvEb1Tl7yi/cM9tCGf4JYQFV1jzx9LWUeyWvzztycVAbsUMZIipKtnA==", "calcular"=>{"npor"=>"3234", "na"=>"", "cpia"=>"243", "fb"=>"234", "nb"=>"5242", "cpib"=>"4243", "fa"=>"2424"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:31:31 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z0JANS6YlE3A8I0d1zsW29xGzyJ0VWVLvEb1Tl7yi/cM9tCGf4JYQFV1jzx9LWUeyWvzztycVAbsUMZIipKtnA==", "calcular"=>{"npor"=>"3234", "na"=>"", "cpia"=>"243", "fb"=>"234", "nb"=>"5242", "cpib"=>"4243", "fa"=>"2424"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:31:35 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z0JANS6YlE3A8I0d1zsW29xGzyJ0VWVLvEb1Tl7yi/cM9tCGf4JYQFV1jzx9LWUeyWvzztycVAbsUMZIipKtnA==", "calcular"=>{"npor"=>"3234", "na"=>"", "cpia"=>"243", "fb"=>"234", "nb"=>"5242", "cpib"=>"4243", "fa"=>"2424"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:31:40 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z0JANS6YlE3A8I0d1zsW29xGzyJ0VWVLvEb1Tl7yi/cM9tCGf4JYQFV1jzx9LWUeyWvzztycVAbsUMZIipKtnA==", "calcular"=>{"npor"=>"3234", "na"=>"", "cpia"=>"243", "fb"=>"234", "nb"=>"5242", "cpib"=>"4243", "fa"=>"2424"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:31:42 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:31:42 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:31:42 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:31:49 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/calcular"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+/usr/local/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+/usr/local/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (3.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___3807661105977710327_47166834946040 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (44.3ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:38:04 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:45:07 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:45:14 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lDPeO+tKM8jARaIkrUTO2HyqEDF/P3T3Q99txzV6bsj/h06IulD/xVXAoAUHUr0daYcs3df2RboTyV7B4RpIow==", "calcular"=>{"npor"=>"234242", "na"=>"342342", "cpia"=>"34234234", "fb"=>"234234", "nb"=>"2342342", "cpib"=>"3422", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:45:28 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lDPeO+tKM8jARaIkrUTO2HyqEDF/P3T3Q99txzV6bsj/h06IulD/xVXAoAUHUr0daYcs3df2RboTyV7B4RpIow==", "calcular"=>{"npor"=>"234242", "na"=>"342342", "cpia"=>"34234234", "fb"=>"234234", "nb"=>"2342342", "cpib"=>"342233", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:45:30 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lDPeO+tKM8jARaIkrUTO2HyqEDF/P3T3Q99txzV6bsj/h06IulD/xVXAoAUHUr0daYcs3df2RboTyV7B4RpIow==", "calcular"=>{"npor"=>"234242", "na"=>"342342", "cpia"=>"34234234", "fb"=>"234234", "nb"=>"2342342", "cpib"=>"342233", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:45:34 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lDPeO+tKM8jARaIkrUTO2HyqEDF/P3T3Q99txzV6bsj/h06IulD/xVXAoAUHUr0daYcs3df2RboTyV7B4RpIow==", "calcular"=>{"npor"=>"234242", "na"=>"7575", "cpia"=>"34234234", "fb"=>"234234", "nb"=>"2342342", "cpib"=>"342233", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:45:40 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lDPeO+tKM8jARaIkrUTO2HyqEDF/P3T3Q99txzV6bsj/h06IulD/xVXAoAUHUr0daYcs3df2RboTyV7B4RpIow==", "calcular"=>{"npor"=>"234242", "na"=>"7575", "cpia"=>"674", "fb"=>"234234", "nb"=>"2342342", "cpib"=>"342233", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:45:47 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lDPeO+tKM8jARaIkrUTO2HyqEDF/P3T3Q99txzV6bsj/h06IulD/xVXAoAUHUr0daYcs3df2RboTyV7B4RpIow==", "calcular"=>{"npor"=>"234242", "na"=>"7575", "cpia"=>"674", "fb"=>"886", "nb"=>"542", "cpib"=>"5734", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:45:51 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lDPeO+tKM8jARaIkrUTO2HyqEDF/P3T3Q99txzV6bsj/h06IulD/xVXAoAUHUr0daYcs3df2RboTyV7B4RpIow==", "calcular"=>{"npor"=>"663", "na"=>"7575", "cpia"=>"674", "fb"=>"886", "nb"=>"542", "cpib"=>"5734", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:45:55 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lDPeO+tKM8jARaIkrUTO2HyqEDF/P3T3Q99txzV6bsj/h06IulD/xVXAoAUHUr0daYcs3df2RboTyV7B4RpIow==", "calcular"=>{"npor"=>"663", "na"=>"7575", "cpia"=>"674", "fb"=>"6", "nb"=>"542", "cpib"=>"5734", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:45:59 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lDPeO+tKM8jARaIkrUTO2HyqEDF/P3T3Q99txzV6bsj/h06IulD/xVXAoAUHUr0daYcs3df2RboTyV7B4RpIow==", "calcular"=>{"npor"=>"663", "na"=>"7563", "cpia"=>"673", "fb"=>"6", "nb"=>"542", "cpib"=>"5734", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:46:51 -0600
+  
+SyntaxError (/home/denis/sites/maq3/app/controllers/welcome_controller.rb:36: syntax error, unexpected ',', expecting =>
+...> 'FA = '.to_json,var4.to_json, :alert => 'Se calculó fa'
+...                               ^):
+  
+app/controllers/welcome_controller.rb:36: syntax error, unexpected ',', expecting =>
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.8ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from __usr_local_lib_ruby_gems_______gems_web_console_______lib_web_console_templates_console_js_erb___3807661105977710327_70027764152200 at /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.6ms)
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:47:02 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:48:10 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:48:30 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eAt2V8zikXw/s21bTbFqCJIJXuj17iD8pHkjW7a+23ETv+bknfhdcao2b3rnpxnNhyRiBF0nEbH0bxBdYt79Gg==", "calcular"=>{"npor"=>"24", "na"=>"24", "cpia"=>"2", "fb"=>"42", "nb"=>"35133", "cpib"=>"241", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:48:34 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eAt2V8zikXw/s21bTbFqCJIJXuj17iD8pHkjW7a+23ETv+bknfhdcao2b3rnpxnNhyRiBF0nEbH0bxBdYt79Gg==", "calcular"=>{"npor"=>"24", "na"=>"24", "cpia"=>"2", "fb"=>"42", "nb"=>"35133", "cpib"=>"2415345", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:48:36 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eAt2V8zikXw/s21bTbFqCJIJXuj17iD8pHkjW7a+23ETv+bknfhdcao2b3rnpxnNhyRiBF0nEbH0bxBdYt79Gg==", "calcular"=>{"npor"=>"24", "na"=>"24", "cpia"=>"23535", "fb"=>"42", "nb"=>"35133", "cpib"=>"2415345", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 21:48:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:49:02 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6umrhKMBOcxbUUmhiyXd8HGGzbcTPM2O1txo92aLuFWBXTs38hv1wc7US4AhM641ZKvxW7v1/MOGylvxsuuePg==", "calcular"=>{"npor"=>"42342", "na"=>"234242", "cpia"=>"423", "fb"=>"02423", "nb"=>"2342", "cpib"=>"23", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:49:32 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6umrhKMBOcxbUUmhiyXd8HGGzbcTPM2O1txo92aLuFWBXTs38hv1wc7US4AhM641ZKvxW7v1/MOGylvxsuuePg==", "calcular"=>{"npor"=>"42342", "na"=>"234242", "cpia"=>"423", "fb"=>"02423", "nb"=>"2342", "cpib"=>"23", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 21:49:35 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6umrhKMBOcxbUUmhiyXd8HGGzbcTPM2O1txo92aLuFWBXTs38hv1wc7US4AhM641ZKvxW7v1/MOGylvxsuuePg==", "calcular"=>{"npor"=>"42342", "na"=>"234242", "cpia"=>"423", "fb"=>"02423", "nb"=>"2342", "cpib"=>"23", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 22:00:31 -0600
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /usr/local/lib/ruby/gems/2.2.0/gems/activerecord-5.0.2/lib/active_record/railtie.rb:113)
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 195ms (Views: 187.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:00:39 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MV/XZDEDpO+DBFqeHXKcjYek73VR8rQzL4HCEJ/dVOxa60fXYBlo4haBWL+3ZO9IkonTmfk7hX5/l/EWS71yhw==", "calcular"=>{"npor"=>"1424", "na"=>"536", "cpia"=>"47", "fb"=>"4453", "nb"=>"63547", "cpib"=>"4563", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:00:55 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MV/XZDEDpO+DBFqeHXKcjYek73VR8rQzL4HCEJ/dVOxa60fXYBlo4haBWL+3ZO9IkonTmfk7hX5/l/EWS71yhw==", "calcular"=>{"npor"=>"", "na"=>"4235", "cpia"=>"4724", "fb"=>"4453", "nb"=>"63547", "cpib"=>"4563", "fa"=>""}, "commit"=>"Calcular"}
+No template found for WelcomeController#calcular, rendering head :no_content
+Completed 204 No Content in 21ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 22:01:03 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 31ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:01:11 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"clnLWsnfQIBqq8Fiw22fKVqoh25ASiJsHSw/I76DccsZ7VvpmMWMjf8uw0Npe+zsT4W7guiDEyFNOgwlauNXoA==", "calcular"=>{"npor"=>"", "na"=>"145", "cpia"=>"1464", "fb"=>"464", "nb"=>"353", "cpib"=>"4646", "fa"=>"63745"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:01:19 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"clnLWsnfQIBqq8Fiw22fKVqoh25ASiJsHSw/I76DccsZ7VvpmMWMjf8uw0Npe+zsT4W7guiDEyFNOgwlauNXoA==", "calcular"=>{"npor"=>"4362", "na"=>"", "cpia"=>"1464", "fb"=>"464", "nb"=>"353", "cpib"=>"4646", "fa"=>"63745"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 22:10:41 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:10:49 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"", "na"=>"524352", "cpia"=>"552345234", "fb"=>"523452", "nb"=>"2353", "cpib"=>"452345", "fa"=>"34523"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:10:52 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"", "na"=>"524352", "cpia"=>"552345234", "fb"=>"523452", "nb"=>"2353", "cpib"=>"452345", "fa"=>"34523"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:11:00 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"024523", "na"=>"", "cpia"=>"552345234", "fb"=>"523452", "nb"=>"2353", "cpib"=>"452345", "fa"=>"34523"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:11:03 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"024523", "na"=>"", "cpia"=>"552345234", "fb"=>"523452", "nb"=>"2353", "cpib"=>"452345", "fa"=>"34523"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:11:10 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"024523", "na"=>"023452", "cpia"=>"", "fb"=>"523452", "nb"=>"2353", "cpib"=>"452345", "fa"=>"34523"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:11:16 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"024523", "na"=>"023452", "cpia"=>"02535", "fb"=>"", "nb"=>"2353", "cpib"=>"452345", "fa"=>"34523"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:11:22 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"024523", "na"=>"023452", "cpia"=>"02535", "fb"=>"2453", "nb"=>"", "cpib"=>"452345", "fa"=>"34523"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:11:25 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"024523", "na"=>"023452", "cpia"=>"02535", "fb"=>"2453", "nb"=>"", "cpib"=>"452345", "fa"=>"34523"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:11:27 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"024523", "na"=>"023452", "cpia"=>"02535", "fb"=>"2453", "nb"=>"", "cpib"=>"452345", "fa"=>"34523"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:11:37 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"024523", "na"=>"023452", "cpia"=>"02535", "fb"=>"2453", "nb"=>"2342", "cpib"=>"", "fa"=>"34523"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:11:43 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"024523", "na"=>"023452", "cpia"=>"02535", "fb"=>"2453", "nb"=>"2342", "cpib"=>"23424", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:11:53 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"024523", "na"=>"023452", "cpia"=>"02535", "fb"=>"2453", "nb"=>"2342", "cpib"=>"23424", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:12:09 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"", "na"=>"023452", "cpia"=>"02535", "fb"=>"2453", "nb"=>"2342", "cpib"=>"23424", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:12:17 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"5946535.513619312", "na"=>"", "cpia"=>"02535", "fb"=>"2453", "nb"=>"2342", "cpib"=>"23424", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:12:26 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"5946535.513619312", "na"=>"23452.0", "cpia"=>"", "fb"=>"2453", "nb"=>"2342", "cpib"=>"23424", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:12:34 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"5946535.513619312", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"", "nb"=>"2342", "cpib"=>"23424", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:12:42 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"5946535.513619312", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"2453.0", "nb"=>"", "cpib"=>"23424", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:12:50 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"5946535.513619312", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"2453.0", "nb"=>"567884.0529642974", "cpib"=>"", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:13:06 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"2453.0", "nb"=>"567884.0529642974", "cpib"=>"23424.0", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:13:10 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"2453.0", "nb"=>"567884.0529642974", "cpib"=>"23424.0", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:13:14 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"24523.0", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"2453.0", "nb"=>"567884.0529642974", "cpib"=>"23424.0", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+No template found for WelcomeController#calcular, rendering head :no_content
+Completed 204 No Content in 20ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:13:33 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"24523.0", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"2453.0", "nb"=>"", "cpib"=>"23424.0", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:13:45 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"24523.0", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"2453.0", "nb"=>"2342.0", "cpib"=>"", "fa"=>"0.0004470368840792746"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:13:54 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"24523.0", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"2453.0", "nb"=>"2342.0", "cpib"=>"23424.000000000004", "fa"=>""}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:14:02 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"24523.0", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"", "nb"=>"2342.0", "cpib"=>"23424.000000000004", "fa"=>"0.00044703688407927457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:14:08 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"24523.0", "na"=>"23452.0", "cpia"=>"", "fb"=>"10.116371414221032", "nb"=>"2342.0", "cpib"=>"23424.000000000004", "fa"=>"0.00044703688407927457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:14:18 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"24523.0", "na"=>"", "cpia"=>"2535.0", "fb"=>"10.116371414221032", "nb"=>"2342.0", "cpib"=>"23424.000000000004", "fa"=>"0.00044703688407927457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:14:37 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"24523.0", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"10.116371414221032", "nb"=>"2342.0", "cpib"=>"", "fa"=>"0.00044703688407927457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:14:49 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"24523.0", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"10.116371414221032", "nb"=>"", "cpib"=>"23424.000000000004", "fa"=>"0.00044703688407927457"}, "commit"=>"Calcular"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/welcome/calcular" for 127.0.0.1 at 2017-05-07 22:14:58 -0600
+Processing by WelcomeController#calcular as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"esVM0zUB+ritQsz2elw7lG9gxcFx7vqiptjU4TWfO3jjoOUQ9LEmBNcQp6AuSRRpGLGl+RQMVJXscF3y8Ws7lw==", "calcular"=>{"npor"=>"24523.0", "na"=>"23452.0", "cpia"=>"2535.0", "fb"=>"10.116371414221032", "nb"=>"2342.0", "cpib"=>"23424.000000000004", "fa"=>"0.00044703688407927457"}, "commit"=>"Calcular"}
+No template found for WelcomeController#calcular, rendering head :no_content
+Completed 204 No Content in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 22:29:58 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 22:30:10 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-07 22:30:25 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
